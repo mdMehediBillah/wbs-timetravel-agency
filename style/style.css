@@ -52,14 +52,15 @@ body {
 
 /* Hero area */
 #hero {
-  background-image: url(/css-presentation/source/main/hero-image.jpg);
+  background-image: url(/css-presentation/source/main/head-new-img.jpg);
   width: 100%;
   height: 50vh;
-  background-position: center;
+  background-position: start;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  display: block;
 }
 
 .hero-content h1 {
@@ -210,6 +211,9 @@ body {
 .policy-container {
   background-color: var(--bgDark);
   color: var(--brandPrimary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
   font-size: 0.7rem;
   padding: 1rem 2rem 5rem;
 }
